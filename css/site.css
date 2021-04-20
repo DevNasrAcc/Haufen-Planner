@@ -1,0 +1,267 @@
+.bg-primary {
+    /*background-color: #61442F;*/
+    /*/background :url("../img/Brown-Gradient-Wallpaper-brown-28317166-1600-1000.jpg");*/
+    /*//background-size: 100% 100%;*/
+    /*background-position-x: 100%;*/
+    /*//background-repeat: no-repeat;*/
+    /*//min-height: 100%;*/
+    background: url("../img/loginPageBG.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 100% 100%;
+
+
+}
+.btn-primaryy{
+    background-color: #61442F;
+}
+.text-primary{
+    color:    #61442F;
+}
+.text-white{
+    color:    #ffffff;
+}
+
+@font-face {
+    font-family: "DB Office";
+    src: url(dboff03.ttf)format("truetype");;
+}
+body{
+    /*font-family: "DB Office";*/
+}
+
+#pdfOptionsHtml{
+    width: 300px;
+    background: brown;
+
+}
+
+body {
+    font-family: "Ubuntu", "Trebuchet MS", sans-serif;
+    /*background-color: #eeeeee;*/
+}
+#wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
+
+th, td {
+    padding: 5px 10px;
+    border: 1px solid #999;
+    font-size: 12px;
+}
+.th {
+    background-color: #bfbfbf;
+}
+.th[data-sort]{
+    cursor:pointer;
+}
+
+/* just some random additional styles for a more real-world situation */
+#msg {
+    color: #0a0;
+    text-align: center;
+}
+td.name {
+    font-weight: bold;
+}
+td.email {
+    color: #666;
+    text-decoration: underline;
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+.picker
+{
+    height:16px;
+    width:16px;
+    background:url("/images/icons/cal.gif") no-repeat;
+    margin-left:-19px;
+    cursor:pointer;
+    border:none;
+}
+.thismodeler
+{
+    background-color:#0F0;
+
+}
+.thisTeamLead
+{
+    background-color:#66CCFF
+}
+.bold
+{
+    font-weight: bold;
+}
+textarea {
+    width: 100%;
+    height: 80px;
+}
+
+.Modeler
+{
+
+    background-color:#c5d9f1;
+}
+.Environment
+{
+    background-color:#c0d998;
+}
+.Library
+{
+    background-color:#CDB99C;
+}
+.CAD
+{
+    background-color:#9a9cc8;
+}
+.Project_Leader
+{
+    background-color:#d9d598;
+}
+.QA
+{
+    background-color:#8B88FF;
+}
+.hightlight
+{
+    background: #ffffff;
+    color: #000000;
+}
+
+#logininfo
+{
+    float: right;
+    /*margin-right:1em;*/
+}
+tr.highlight
+{
+    background-color: #063774;
+    color: White;
+}
+
+.halfColor
+{
+    width: 50%;
+    height: 100%;
+    background-color:yellow
+}
+
+.blink
+{
+    float:right;
+}
+
+.switchRequestEmp{
+    position: fixed;
+    bottom: 0;
+    /* width: 100%; */
+    right: 0px;
+    background: rgb(242, 222, 222);
+    color: rgb(180, 17, 17);
+}
+
+.bottom-panel > summary {
+    /*width: 180px;*/
+}
+
+
+.column-width{
+    width: 3px;
+}
+
+.fixed-width{
+    width: 14.285%
+}
+#New_whiteboard{
+    /*background-image: url("../img/Tll_LOGO.png");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+.textarea-width-height{
+    width: 150px;
+    height: 24px;
+}
+
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 )
+    url('http://i.stack.imgur.com/FhHRx.gif')
+    50% 50%
+    no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+
+
+details[open]#ProjectQuestionAnswerBottomPanel{
+    height: 200px;
+    width: 570px;
+    /*height: 95%;*/
+    /*width: 100%;*/
+}
+
+details#ProjectQuestionAnswerBottomPanel{
+    height: 20px;
+}
+
+.ProjectQuestionAnswerBottomPanelMaximizeSetting{
+    width:  100%;
+    height: 95%;
+}
+/*
+details[open]#ProjectQuestionAnswerBottomPanel#ProjectQuestionAnswer{
+    height: 200px;
+    width: 515px;
+}
+
+details#ProjectQuestionAnswerBottomPanel#ProjectQuestionAnswer{
+    height: 20px;
+}*/
+
+#ProjectQuestionAnswerBottomPanel Summary
+{
+    display: inline;
+    /*color: #00aa00;*/
+}
+
+.textareaProjectQAnswer{
+    width: 300px;
+    height: 20px;
+}
+
+.maximizeIcon{
+    width: 46px;
+    height: 44px;
+    background: url("img/MaximizeIcon.png") 0 0;
+}
+

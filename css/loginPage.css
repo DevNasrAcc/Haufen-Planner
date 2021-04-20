@@ -1,0 +1,30 @@
+.center_div{
+    margin: 0 auto;
+    width:40%; /* value of your choice which suits your alignment */
+    background: white;
+    border-radius: 37px;
+    padding:10px;
+	color:brown;
+}
+.form-center{
+    /*margin-top: 20%;*/
+    /*background: url('img/image-bg.jpg') no-repeat;*/
+    width: 75%;
+    height: 60%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.btn-round{
+    border-radius: 30px;
+    background-color: #321b0a;
+}
+#login_submit:hover{
+    color:navajowhite;
+}
+#login_submit:focus{
+    color:navajowhite;
+}

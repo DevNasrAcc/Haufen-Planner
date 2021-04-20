@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container
+{
+	width:800px;
+	margin:0px auto;
+}
+table{
+	margin:20px auto;
+	
+}
+
+#ProjectMenu
+{
+	float:left;
+}
+
+div
+{
+	margin:3px;
+}

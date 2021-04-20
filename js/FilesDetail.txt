@@ -1,0 +1,2 @@
+validation.js    > statusreport.php > pdf popup 
+jquery-ui.css    > statusreport.php > pdf popup > css

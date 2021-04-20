@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+<form action="vote_Form1.php" method="post" id="form1">
+<table width="200" border="1">
+  <tr>
+    <td>Question:</td>
+    <td> <input type="text" placeholder="Question Here" name="question" required="required"/></td>
+  </tr>
+  <tr>
+    <td>Options</td>
+    <td><INPUT TYPE="number" name="options" MIN="1" MAX="10" STEP="1" VALUE="6" SIZE="6">   </td>
+  </tr>
+  <tr>
+    <td>Type</td>
+    <td><p>
+      <label>
+        <input type="radio" name="vote_type" value="radio" required="required">
+       Radio
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="vote_type" value="check">
+         Check Box </label>
+      <br>
+    </p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>
+		<button type="submit" form="form1" value="Submit">Next</button>
+	</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</form>
+
+
+</body>
+</html>
